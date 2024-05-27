@@ -1,19 +1,22 @@
 :root {
+  /* Colors */
   --clr-white: hsl(0, 0%, 100%);
   --clr-lightgray: hsl(212, 45%, 89%);
   --clr-grayishblue: hsl(220, 15%, 55%);
   --clr-darkblue: hsl(218, 44%, 22%);
 
+  /* Typography */
   --fs-body: 15px;
-
   --ff: "Outfit", sans-serif;
 
+  /* Spacing */
   --space-s: 1rem;
   --space-m: 2rem;
   --space-l: 4rem;
   --space-xl: 6rem;
   --space-xxl: 8rem;
 
+  /* Utility */
   --shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.04);
   --radius-m: 1.25rem;
   --radius-s: 0.625rem;
@@ -68,6 +71,7 @@ body {
 
 .card__title {
   font-size: 22px;
+  color: var(--clr-darkblue);
 }
 
 .card__body {
